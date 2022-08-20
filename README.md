@@ -118,9 +118,28 @@ done < $file
 
 ![This is an image](https://1000marcas.net/wp-content/uploads/2021/05/Docker-Logo-2013.png) 
 
+
+| Comando | Descripción o Funcionalidad |
+| --- | --- |
 | docker [--options] |Este comando solo se accede a la CLI de Docker|
 | docker –version |Este comando funciona para mostrar la versión de Docker|
-| docker [--options] |Este comando solo se accede a la CLI de Docker|
-| docker [--options] |Este comando solo se accede a la CLI de Docker|
-| docker [--options] |Este comando solo se accede a la CLI de Docker|
-| docker [--options] |Este comando solo se accede a la CLI de Docker|
+| docker --help |Este comando funciona para mostrar la ayuda de Docker|
+| docker info |Este comando funciona para mostrar información de Docker|
+| docker images |Este comando funciona para mostrar imágenes de Docker en el host|
+| docker <management-command> <subcommand> [--options] <object> |Este comando funciona para mostrar parámetros opcionales, así como el nombre de un objeto Docker|
+|docker container run -it httpd |Este comando funciona para iniciar un nuevo contenedor desde la imagen “httpd” en modo interactivo|
+| docker container run --cpus="1" --memory="10m" <image> |Este comando funciona para asignar un núcleo de CPU y 10 megabytes de memoria a los contenedores de Docker|
+|  docker container run -p 80:80/tcp <image> |Este comando funciona para mostrar la ayuda de Docker|
+| docker --help |Este comando funciona para seleccionar el puerto TPC 80 del host Docker al puerto 80 del contenedor Docker |
+| docker container ls |Este comando funciona para mostrar los contenedores que se ejecutan en el host|
+| docker container stats |Este comando funciona para mostrar información sobre el estado de los contenedores en funcionamiento|
+| docker container logs <container> |Este comando funciona para mostrar  la información de registro de un contenedor|
+
+Hay muuchos mas comandos pero esos son ( a mi parecer) los mas usados.
+
+
+#### Gracias por todo!!
+
+![This is an image](https://ahseeit.com/spanish/king-include/uploads/2020/11/122894531_109522457528250_5507338687742534507_n-6883413424.jpg)
+
+
