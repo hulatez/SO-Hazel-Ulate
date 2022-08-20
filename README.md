@@ -11,8 +11,8 @@
 
 
 
-#### A continuación veremoa algunos comandos aprendidos en la clase.
-#### Dichos comandos se usan en al interfaz de Linux.
+#### A continuación veremos algunos comandos aprendidos en la clase.
+#### Dichos comandos se usan en al interfaz de Linux / Sistemas basados en Unix .
 
 ![This is an image](https://upload.wikimedia.org/wikipedia/commons/d/dd/Linux_logo.jpg)
 
@@ -39,7 +39,7 @@
 | rm **nombre de archivo** |Este comando funciona  para borrar .txt|
 | rm **nombre de directorio**/  | Este comando funciona para borrar directorio|
 | dpkg -i **archivo .deb** |Este comando funciona  para bajar un archivo .deb |
-| alias *nombre random* = “ls -l |Este comando funciona para funcionar como traductor de comandos|
+| alias **nombre random** = “ls -l |Este comando funciona para funcionar como traductor de comandos|
 
 
 ##### Personalmente una de las clases que mas me agrado fue la clase de Bash. Asi que voy a compartir un poco de info de lo que vimos!
@@ -54,26 +54,26 @@ echo -n "Imprimir en la misma línea"
 echo -e "\nUtilizar caracteres \nespeciales\t separadores"
 
 2. Hacer el Hola Mundo:
-#!/bin/bash
+!/bin/bash
 echo "Hello World"
 
 3. Sumar 2 numeros:
-#!/bin/bash
-# Sumar 2 números
+!/bin/bash
+ Sumar 2 números
 ((sum=25+35))
-# Imprimir el resultado
+ Imprimir el resultado
 echo $sum
 
 4. Hacer un For:
 
-#!/bin/bash
+!/bin/bash
 for (( counter=10; counter>0; counter-- ))
 do
 echo -n "$counter "
 done
 printf "\n"
 
-#!/bin/bash
+!/bin/bash
 for i in $(cat users.txt)
 do
 	useradd $i; passwd -d $i
@@ -82,7 +82,7 @@ done
 
 5. Hacer un While:
 
-#!/bin/bash
+!/bin/bash
 valid=true
 count=1
 while [ $valid ]
@@ -98,17 +98,17 @@ echo "Terminado"
 
 6. Obtener informacion del usuario:
 
-#!/bin/bash
+!/bin/bash
 echo "Ingrese su nombre"
 read name
 echo "Bienvenido $name a Sistemas Operativos"
 
-#!/bin/bash
+!/bin/bash
 zenity --entry --title "Name request" --text "Please enter your name:"
 
 7. Para leer archivos:
 
-#!/bin/bash
+!/bin/bash
 file='book.txt'
 while read line; do
 echo $line
@@ -116,4 +116,11 @@ done < $file
 
 #### Ahora tambien vamos a ver un poco de algunos comandos de Docker :)
 
-![This is an image](https://1000marcas.net/wp-content/uploads/2021/05/Docker-Logo-2013.png)
+![This is an image](https://1000marcas.net/wp-content/uploads/2021/05/Docker-Logo-2013.png) 
+
+| docker [--options] |Este comando solo se accede a la CLI de Docker|
+| docker –version |Este comando funciona para mostrar la versión de Docker|
+| docker [--options] |Este comando solo se accede a la CLI de Docker|
+| docker [--options] |Este comando solo se accede a la CLI de Docker|
+| docker [--options] |Este comando solo se accede a la CLI de Docker|
+| docker [--options] |Este comando solo se accede a la CLI de Docker|
